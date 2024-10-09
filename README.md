@@ -4,7 +4,7 @@ Full Control is the Magic: the Gathering Arena helper app for those who always w
 
 It's a small Windows tray utility that when enabled monitors Magic: the Gathering Arena log file and if the use is not using full control during a game sends Ctrl + Shift to the Magic: the Gathering Arena client to enter full control.
 
-## Suppoerted
+## Supported
 
 ### Platforms
 * Windows
