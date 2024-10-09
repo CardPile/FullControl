@@ -1,4 +1,4 @@
-﻿using NLog;
+﻿using System.Diagnostics;
 using System.Text;
 
 namespace Parser;
@@ -72,7 +72,7 @@ public class LogFileWatcher
         }
         catch (Exception e)
         {
-            logger.Error(e);
+            Debug.WriteLine(e);
             throw;
         }
     }
@@ -126,6 +126,4 @@ public class LogFileWatcher
 
     private string? filePath = null;
     private long lastLength = 0;
-
-    private static readonly Logger logger = LogManager.GetCurrentClassLogger();
 }
